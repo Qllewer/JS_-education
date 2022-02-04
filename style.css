@@ -1,0 +1,65 @@
+body{
+    width: 100%;
+    background-color: #1B6EB2;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar__logo{
+    margin-top: 21px;
+    margin-right: 106px;
+    margin-left: 324px;
+}
+.navbar__info{
+    display: flex;
+    margin-top: 35px;
+}
+
+.navbar__info-text{
+    margin-right: 35px;
+    line-height: 36px;
+    font-weight: 600;
+    color: white;
+}
+
+.navbar__number{
+    display: flex;
+    margin-left: 55px;
+    margin-top: 30px;
+    margin-right: 60px;
+}
+
+.navbar__number-image{
+    margin-right: 5px;
+}
+
+.navbar__number-text{
+    color: white;
+    line-height:36px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.navbar__location{
+    display: flex;
+    margin-top: 30px;
+}
+
+.navbar__location-image{
+    margin-right: 10px;
+    padding-top: 5px;
+}
+
+.navbar__location-name{
+    color: white;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    margin-right: 60px;
+}
