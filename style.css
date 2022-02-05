@@ -1,12 +1,19 @@
 body{
     width: 100%;
-    background-color: #1B6EB2;
     font-family: 'Montserrat';
+    background-color: #0659A0;
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
 }
 
+.container{
+    width: 100;
+}
+
+.navbar__background{
+    position: absolute;
+}
 .navbar{
     display: flex;
 }
@@ -62,4 +69,143 @@ body{
     font-size: 22px;
     line-height: 36px;
     margin-right: 60px;
+}
+
+.content{
+    display: flex;
+    justify-content: space-betwee;
+}
+
+.content__payment{
+    border: #003F84 solid;
+    border-radius: 5px;
+    width: 50px;
+    height: 209px;
+    background: #003F84;
+}
+
+.content__payment-ruble{
+    padding-top: 17px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 36px;
+    color: white;
+}
+
+.content__payment-text{
+    text-align: center;
+    transform: s;
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+    line-height: 36px;
+}
+
+.content__text{
+}
+.content__text-header{
+    margin-left: 310px;
+    margin-bottom: 40px;
+    width: 380px;
+    height: 170px;
+    line-height: 60px;
+    font-size: 48px;
+    color: white;
+    font-weight: 600;
+}
+
+.content__text-list{
+    margin-left: 290px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.content__images{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+.content__images-photo{
+    position: absolute;
+}
+
+.content__form{
+    justify-content: center;
+    background-color: #0D69AE;
+    width: 381px;
+    height: 462px;
+    border:#53B0FF solid;
+    border-radius: 5px;
+    border-width: 4px;
+}
+
+.content__form-header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36px;
+    color: white;
+    margin-bottom:25px ;
+}
+
+.content__form-number{
+    width: 278px;
+    height: 50px;
+    border: #53B0FF solid;
+    background: #18589E;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.content__form-text{
+    margin-top: 7px;
+    margin-left: 20px;
+    color: white;
+    line-height: 34px;
+}
+
+.content__form-question{
+    width: 278px;
+    height: 96px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: #53B0FF solid;
+    background: #18589E;
+    border-radius: 5px;
+}
+
+.content__form-button{
+    width:278px;
+    height: 47px;
+    border: #53B0FF solid;
+    border-radius: 5px;
+    margin: 0 auto;
+    background: #53B0FF;
+    margin-top: 10px;
+}
+
+.content__form-button__text{
+    padding-top: 8px;
+    font-weight: 700;
+    line-height: 31px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.content__form-conditions{
+    width: 278px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.content__form-conditions__text{
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    font-weight: 500;
+    line-height: 17px;
 }
