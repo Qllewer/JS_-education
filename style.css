@@ -86,9 +86,6 @@ button:active, button:focus, select:active, select:focus {
     line-height: 36px;
 }
 
-.content{
-}
-
 .section1__navbar {
     display: flex;
     justify-content: space-between;
@@ -297,6 +294,7 @@ button{
 .section2__block-container{
     display: flex;
     justify-content: space-between;
+    text-decoration: none;
 }
 
 .section2__block-text{
@@ -336,6 +334,7 @@ button{
 }
 
 .reviews__info-date{
+    font-family: 'Manrope';
     color: #828282;
     font-size: 12px;
     font-weight: 400;
@@ -354,6 +353,7 @@ button{
 }
 
 .reviews__info-case{
+    font-family: 'Manrope';
     font-weight: 400;
     font-size: 14px;
     line-height: 26px;
@@ -616,6 +616,10 @@ button{
     color: white;
 }
 
+.map{
+    max-width: 100%;
+}
+
 .map__header{
     font-size: 40px;
     font-weight: 500;
@@ -759,10 +763,16 @@ button{
     margin-left: 30px;
 }
 
+.basement__background{
+    background-color:#F4F4F4;    ;
+}
+
 .basement__additionally{
     background-color: #F4F4F4;
     display: flex;
     justify-content: space-around;
+    width: 1300px;
+    margin: 150px auto 0 auto;
 }
 
 .basement__additionally-text{
@@ -771,13 +781,13 @@ button{
     line-height: 36px;
     color:#6F6F6F;
     margin-top: 15px;
-    margin-bottom: 35px;
+    margin-bottom: 40px;
 }
 
 .content__payment{
     border: #003F84 solid;
     border-radius: 5px;
-    width: 50px;
+    width: 63px;
     height: 209px;
     background: #003F84;
     left: 0;
@@ -787,7 +797,7 @@ button{
 }
 
 .content__payment-ruble{
-    padding-top: 17px;
+    padding-top: 20px;
     text-align: center;
     font-weight: 500;
     font-size: 32px;
@@ -797,6 +807,7 @@ button{
 
 .content__payment-text{
     text-align: center;
+    margin-top: 15px;
     transform: s;
     font-weight: 600;
     color: white;
